@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("..//fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins-SemiBold.ttf") format("truetype"), url("../fonts/Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/extra bold/Poppins-ExtraBold.eot");
+  src: url("../fonts/extra bold/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/extra bold/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/extra bold/Poppins-ExtraBold.woff") format("woff"), url("../fonts/extra bold/Poppins-ExtraBold.ttf") format("truetype"), url("../fonts/extra bold/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/bold/Poppins-Bold.eot");
+  src: url("../fonts/bold/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/bold/Poppins-Bold.woff2") format("woff2"), url("../fonts/bold/Poppins-Bold.woff") format("woff"), url("../fonts/bold/Poppins-Bold.ttf") format("truetype"), url("../fonts/bold/Poppins-Bold.svg#Poppins-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/medium/Poppins-Medium.eot");
+  src: url("../fonts/medium/Poppins-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/medium/Poppins-Medium.woff2") format("woff2"), url("../fonts/medium/Poppins-Medium.woff") format("woff"), url("../fonts/medium/Poppins-Medium.ttf") format("truetype"), url("../fonts/medium/Poppins-Medium.svg#Poppins-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/regular/Poppins-Regular.eot");
+  src: url("../fonts/regular/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/regular/Poppins-Regular.woff2") format("woff2"), url("../fonts/regular/Poppins-Regular.woff") format("woff"), url("../fonts/regular/Poppins-Regular.ttf") format("truetype"), url("../fonts/regular/Poppins-Regular.svg#Poppins-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("Poppins-SemiBold.eot");
+  src: url("Poppins-SemiBold.eot?#iefix") format("embedded-opentype"), url("Poppins-SemiBold.woff2") format("woff2"), url("Poppins-SemiBold.woff") format("woff"), url("Poppins-SemiBold.ttf") format("truetype"), url("Poppins-SemiBold.svg#Poppins-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+.bg-header .container {
+  max-width: 1088px;
+  width: 100%;
+  margin: 0 auto; }
+
+.bg-header {
+  background-image: url(..//img/banner.jpg);
+  height: 324px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .bg-header .container .flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px; }
+    .bg-header .container .flex-header .nav-ul {
+      font-family: "Poppins";
+      font-weight: bolder;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .bg-header .container .flex-header .nav-ul .nav-li {
+        margin-right: 49px; }
+      .bg-header .container .flex-header .nav-ul .li:last-child {
+        margin-right: 0; }
+      .bg-header .container .flex-header .nav-ul .nav-li a {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase; }
+      .bg-header .container .flex-header .nav-ul .nav-li:first-child a {
+        color: #5863F8; }
+      .bg-header .container .flex-header .nav-ul .arrow {
+        color: #fff;
+        font-size: 15px; }
+    .bg-header .container .flex-header .burger-icon {
+      color: #fff;
+      font-size: 30px;
+      margin: 0 15px;
+      display: none; }
+  .bg-header .title-wraper {
+    position: absolute;
+    top: 146px; }
+    .bg-header .title-wraper .title-header {
+      font-size: 42px;
+      color: #fff;
+      text-transform: capitalize;
+      font-family: "Poppins";
+      font-weight: bolder; }
+    .bg-header .title-wraper .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .bg-header .title-wraper .about .p-header,
+      .bg-header .title-wraper .about .about-header {
+        font-size: 14px;
+        color: #fff;
+        text-transform: capitalize;
+        font-family: "Poppins";
+        font-weight: bolder;
+        margin-top: 14px; }
+      .bg-header .title-wraper .about .line {
+        background-color: #fff;
+        width: 2px;
+        height: 19px;
+        margin: 14px 15px 0; }
