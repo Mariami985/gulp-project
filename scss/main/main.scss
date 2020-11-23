@@ -20,6 +20,10 @@ position:$position01;
     }
     .nav-li {
     margin-right:$size07;
+
+    @media screen and (max-width: 800px){
+        display: none;
+    }
     }
     .li:last-child {
     margin-right:0;
@@ -47,18 +51,30 @@ position:$position01;
     font-size:$font-size03;
     margin:0 $size08;
     display: none;
+    @media screen and (max-width:800px){
+    display:block;
+    @include hover-effect(all,0,5s,linear,0,5s);
+    &:hover{
+        color: aqua;
+
+    }
     }
 }
+}
+
 
 .title-wraper{
     position: $position02;
     top:$size09;
 .title-header {
-    font-size:$font-size05;
+    font-size:$font-size03;
     color:$color01;
     text-transform:$transform02;
     font-family:$font01;
     font-weight:bolder;
+    @media screen and (max-width:800px){
+        font-size: $font-size06;
+    }
     }
 .about{
     @include d-flex(flex, space-between, center);
@@ -70,6 +86,9 @@ position:$position01;
     font-family:$font01;
     font-weight:bolder;
     margin-top:$size04;
+    @media screen and (max-width:800px){
+        font-size: $font-size05;
+    }
 }
     
     .line {
